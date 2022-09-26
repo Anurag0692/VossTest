@@ -1,0 +1,28 @@
+1. How could you reduce the time to execute some or all of these test cases or if you had several sites to test?
+
+We can reduce test execution times by following below steps -
+	a. Running tests in parallel - We can categorize our test cases in different suites and run them in parallel.
+	b. Dividing a test into multiple tests - Writing tests for each functionality separately. This will allow QA Engineers to run multiple test cases for each functionality in one go.
+	c. Setting up our test suites in a CICD pipeline
+
+2. Briefly (a few sentences is fine) describe how you would set up a pipeline on your preferred source control management platform to perform continuous integration testing of a simple front end web-based application. It could be anything you like eg a calculator that outputs the correct results from numbers you input..
+
+Assuming we are using GitHub, we would first need to create a GitHub repository for your web application. Then, we would need to create a second GitHub repository for our continuous integration testing scripts. In our web application repository, we would need to set up a webhook that triggers a build in our continuous integration testing repository whenever a new commit is pushed. Our continuous integration testing repository would need to be configured to run our tests whenever a new build is triggered.
+
+
+3. Describe briefly how you would run performance testing against a web-based application.
+
+We can run performance tests against a web application by using tools like LoadRunner, Jenkins, JMeter etc. 
+These tools allow testers to setup their perfromance tests by setting up parameteres like how many users can hit the web application at once, how many users can hit the application after one another, the delay in which a user hits the applications. Based on the parameters we pass to thes tools, thet generate a result that depicst the actual performance of the web server. These results have values such as the number of requests a server can hold within a minute.
+
+4. Describe briefly what kind of security testing you might perform against a web-based application.
+
+Security testing is generally performed by a special group of testers who have access to the web servers where the application is hosted. They can either chose to manipulate the URL or call XSS script that can fake an actual user configurations. It is important for these testers to validate both server and client certs before allowing any data processing.
+
+5. Describe how you might build in exception and error handling to your application.
+
+We can handle an exception by writing our code in a Try-Catch-Finally statements. We can also specify the kind of exception we might encounter during execution of a test case.
+
+
+
+

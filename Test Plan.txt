@@ -1,0 +1,43 @@
+Test Plan -
+
+1. Introduction
+
+This document describes how we can use automation to perform various tasks in "https://www.ultimateqa.com/automation/". It also defines what the test objectives and exit criterias are.
+
+2. Test Objectives and Functionalities
+
+Objectives are below -
+	a. To browse "https://www.ultimateqa.com/automation/" and verify the page title
+	b. To take a screenshot
+	c. To maximize the test window
+	d. Login and Logout
+	e. Submit a form under "Fill out forms"
+	f. To purchase a basic package for "Fake Pricing Page"
+
+3. Scope - 
+
+To only write test scripts and test the objectives and ignore the other functionalities in "https://www.ultimateqa.com/automation/"
+
+4. Estimation - 
+
+Creation of test case - Manual Tester - 8hrs
+Preparation of automation scripts - Automation Tester - 16hrs
+Execution - Automation Tester - 3hrs
+Test Report - Automation Tester - 1hrs
+Total - 28hrs
+
+5. Environment -
+
+Since we are only dealing with 1 environment i.e. PROD, we are supposed to run our scripts only in PROD
+
+6. Test Deliverables - 
+
+Test plan
+Test Cases
+Automation scripts
+Tools used in Automation
+Report
+Release Notes
+
+
+

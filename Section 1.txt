@@ -1,0 +1,1 @@
+We can use openssl to connect to URL "https://www.ultimateqa.com" and check for the certifcates through openssl s_client -servername <NAME> -connect <HOST:PORT> 2>/dev/null | openssl x509 -noout -dates

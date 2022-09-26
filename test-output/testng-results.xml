@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T01:19:04 SAST" name="Default suite" finished-at="2022-09-26T01:20:29 SAST" duration-ms="85542">
+    <groups>
+    </groups>
+    <test started-at="2022-09-26T01:19:04 SAST" name="Default test" finished-at="2022-09-26T01:20:29 SAST" duration-ms="85542">
+      <class name="package1.NewTest">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:package1.NewTest@693fe6c9]" started-at="2022-09-26T01:19:04 SAST" name="Initialize" finished-at="2022-09-26T01:19:28 SAST" duration-ms="24006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="TitleOfPage()[pri:1, instance:package1.NewTest@693fe6c9]" started-at="2022-09-26T01:19:28 SAST" name="TitleOfPage" finished-at="2022-09-26T01:19:28 SAST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleOfPage -->
+        <test-method signature="Screenshot()[pri:2, instance:package1.NewTest@693fe6c9]" started-at="2022-09-26T01:19:28 SAST" name="Screenshot" finished-at="2022-09-26T01:19:29 SAST" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method signature="Maximize()[pri:3, instance:package1.NewTest@693fe6c9]" started-at="2022-09-26T01:19:29 SAST" name="Maximize" finished-at="2022-09-26T01:19:30 SAST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Maximize -->
+        <test-method signature="LoginAndLogout()[pri:4, instance:package1.NewTest@693fe6c9]" started-at="2022-09-26T01:19:30 SAST" name="LoginAndLogout" finished-at="2022-09-26T01:20:02 SAST" duration-ms="32605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndLogout -->
+        <test-method signature="FillForm()[pri:5, instance:package1.NewTest@693fe6c9]" started-at="2022-09-26T01:20:02 SAST" name="FillForm" finished-at="2022-09-26T01:20:13 SAST" duration-ms="10312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method signature="FakePricingPage()[pri:6, instance:package1.NewTest@693fe6c9]" started-at="2022-09-26T01:20:13 SAST" name="FakePricingPage" finished-at="2022-09-26T01:20:27 SAST" duration-ms="14261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FakePricingPage -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:package1.NewTest@693fe6c9]" started-at="2022-09-26T01:20:27 SAST" name="Close" finished-at="2022-09-26T01:20:29 SAST" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- package1.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
